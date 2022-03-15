@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Minesweeper</string>
+    <string name="try_mode">Try Mode</string>
+    <string name="flag_mode">Flag Mode</string>
+    <string name="rulesBtn">Rules</string>
+    <string name="rules">
+        "If you click on a field in the “Try a field” mode then:\n"
+                        "- If you hit a mine, the game ends.\n"
+                        "- If you do not hit a mine, a number appears on that field indicating how many mines are nearby.\n\n"
+                        "If you click on a field in the “Place a flag” mode then:\n"
+                        "- If you flag a field but there is no mine, the game ends.\n"
+                        "- If you flag a field and there are no more mines, the game ends and you win!\n"
+    </string>
+    <string name="ok">OK</string>
+    <string name="start_game">You can start the game</string>
+    <string name="game_won">You won the game!\nClick OK to reset for next game.</string>
+    <string name="game_lost">You lost the game!\nClick OK to reset for next game.</string>
+</resources>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/teal_700"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <hu.ait.minesweeper.views.MinesweeperView
+        android:id="@+id/msView"
+        android:layout_width="350dp"
+        android:layout_height="350dp"
+        android:layout_gravity="center" />
+
+    <ToggleButton
+        android:id="@+id/toggleBtn"
+        android:layout_width="120dp"
+        android:layout_height="60dp"
+        android:textOff="@string/try_mode"
+        android:textOn="@string/flag_mode" />
+
+    <Button
+        android:id="@+id/rulesBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/rulesBtn" />
+</LinearLayout>
+
